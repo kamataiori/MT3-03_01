@@ -30,7 +30,7 @@ void MainLoop::Initialize()
 	result_->Initialize();
 }
 
-void MainLoop::Updata() { result_->Updata(); }
+void MainLoop::Update() { result_->Update(); }
 
 void MainLoop::Draw() { result_->Draw(); }
 
@@ -50,7 +50,7 @@ void MainLoop::WholeLoop()
 		/// ↓更新処理ここから
 		///
 
-		Updata();
+		Update();
 
 		///
 		/// ↑更新処理ここまで

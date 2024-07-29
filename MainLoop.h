@@ -33,7 +33,7 @@ public:
 	/// 
 	/// 更新処理
 	/// 
-	void Updata();
+	void Update();
 
 	///
 	/// 描画処理
